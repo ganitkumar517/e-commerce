@@ -1,0 +1,78 @@
+
+.nav-ul{
+text-transform: uppercase;
+padding: 5px;
+margin: 0;
+background-color: black;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-indent: 50px;
+}
+.nav-ul:active{
+ background-color: red;
+ color: blue;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+  
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 99.5%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 96.3%;
+}
+.sign-up{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.inp-sing{
+    
+    margin: 25px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    width: 300px;
+}
+.inp-sing:hover{
+    background-color: rgb(193, 251, 251);
+    border: blue solid 2px;
+
+}
+.btn{
+    width: 85%;
+    padding: 7px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: solid 2px red;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: solid 2px salmon;
+}
+.page{
+    text-transform: uppercase;
+    text-align: center;
+}
